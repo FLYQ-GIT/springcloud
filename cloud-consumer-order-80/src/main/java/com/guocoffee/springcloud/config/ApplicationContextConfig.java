@@ -1,5 +1,6 @@
 package com.guocoffee.springcloud.config;
 
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
@@ -18,6 +19,7 @@ public class ApplicationContextConfig {
      * @return
      */
     @Bean
+    @LoadBalanced   // 通过此注解使得RestTemplate具有负载均衡的效果
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }

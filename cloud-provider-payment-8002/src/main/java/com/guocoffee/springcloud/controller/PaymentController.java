@@ -22,11 +22,12 @@ public class PaymentController {
 
     @Resource
     PaymentService paymentService;
+
     /**
      * 获取配置文件中的端口号
      */
     @Value("${server.port}")
-    private String serverPort;
+    private String servicePort;
 
     @PostMapping("/save")
     public CommonResult save(@RequestBody Payment payment){
@@ -35,9 +36,9 @@ public class PaymentController {
         log.info("执行保存操作～～～～" + i);
         log.info("执行保存操作～～～" + payment);
         if (i>0){
-            return new CommonResult(200,"成功-->servicePort："+ serverPort,i);
+            return new CommonResult(200,"成功-->servicePort："+servicePort,i);
         }else {
-            return new CommonResult(400,"失败-->servicePort："+ serverPort);
+            return new CommonResult(400,"失败-->servicePort："+servicePort);
         }
     }
 
@@ -46,9 +47,9 @@ public class PaymentController {
         Payment payment = paymentService.getById(id);
         log.info("执行查询操作～～～" + payment);
         if (payment != null){
-            return new CommonResult(200,"成功～～～-->servicePort："+ serverPort,payment);
+            return new CommonResult(200,"成功-->servicePort："+servicePort,payment);
         }else {
-            return new CommonResult(400,"失败～～～-->servicePort："+ serverPort);
+            return new CommonResult(400,"失败-->servicePort："+servicePort);
         }
     }
 }
