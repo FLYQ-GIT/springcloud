@@ -1,0 +1,9 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: cloud-provider-payment
+  cloud:
+    zookeeper:
+      # 单机版，集群使用,分隔
+      connect-string: 192.168.0.130:2181

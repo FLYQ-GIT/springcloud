@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/guocoffee/springcloud/PaymentApplication8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/java/com/guocoffee/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/guocoffee/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/target/classes/com/guocoffee/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server-7002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server-7002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/guocoffee/springcloud/PaymentApplication8002.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/guocoffee/springcloud/PaymentApplication8002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/guocoffee/springcloud/PaymentApplication8002.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/guocoffee/springcloud/PaymentApplication8002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,20 @@
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="springcloud" />
@@ -64,8 +84,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/guocoffee/springcloud" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -75,11 +95,11 @@
       <recent name="com.guocoffee.springcloud" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-provider-payment-8004/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/guocoffee/springcloud" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,7 +109,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.PaymentApplication8001">
+  <component name="RunManager" selected="Spring Boot.PaymentApplication8004">
     <configuration name="EurekaServiceApplication7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server-7001" />
       <extension name="coverage">
@@ -149,8 +169,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment-8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.PaymentApplication8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentApplication8004" />
         <item itemvalue="Spring Boot.PaymentApplication8002" />
         <item itemvalue="Spring Boot.PaymentApplication8001" />
         <item itemvalue="Spring Boot.EurekaServiceApplication7002" />
@@ -162,29 +196,29 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.2914854" />
+          <option name="contentProportion" value="0.08017402" />
           <treeState>
             <expand>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@763be6a6" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@3fad8acd" type="d2cb1801:ServiceModel$ContributorNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@763be6a6" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@3fad8acd" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@763be6a6" type="d2cb1801:ServiceModel$ContributorNode" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@763be6a6" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@3fad8acd" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@3fad8acd" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -206,7 +240,8 @@
       <updated>1593658574111</updated>
       <workItem from="1593658575485" duration="320000" />
       <workItem from="1593658920903" duration="6068000" />
-      <workItem from="1593667187161" duration="11742000" />
+      <workItem from="1593667187161" duration="13516000" />
+      <workItem from="1593702042058" duration="1201000" />
     </task>
     <servers />
   </component>
@@ -218,45 +253,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593662669937" />
-    <state width="1139" height="336" key="GridCell.Tab.0.bottom" timestamp="1593692429607">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.0.bottom" timestamp="1593703591251">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394509" />
+    <state width="1479" height="700" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591251" />
     <state width="1139" height="336" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1139" height="336" key="GridCell.Tab.0.center" timestamp="1593692429606">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.0.center" timestamp="1593703591246">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394507" />
+    <state width="1479" height="700" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591246" />
     <state width="1139" height="336" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429606" />
-    <state width="1139" height="336" key="GridCell.Tab.0.left" timestamp="1593692429604">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.0.left" timestamp="1593703591245">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394506" />
+    <state width="1479" height="700" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591245" />
     <state width="1139" height="336" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429604" />
-    <state width="1139" height="336" key="GridCell.Tab.0.right" timestamp="1593692429607">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.0.right" timestamp="1593703591249">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394508" />
+    <state width="1479" height="700" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591249" />
     <state width="1139" height="336" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1139" height="336" key="GridCell.Tab.1.bottom" timestamp="1593692429610">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.1.bottom" timestamp="1593703591254">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394511" />
+    <state width="1479" height="700" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591254" />
     <state width="1139" height="336" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429610" />
-    <state width="1139" height="336" key="GridCell.Tab.1.center" timestamp="1593692429609">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.1.center" timestamp="1593703591253">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394510" />
+    <state width="1479" height="700" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591253" />
     <state width="1139" height="336" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
-    <state width="1139" height="336" key="GridCell.Tab.1.left" timestamp="1593692429608">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.1.left" timestamp="1593703591252">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394509" />
+    <state width="1479" height="700" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591252" />
     <state width="1139" height="336" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429608" />
-    <state width="1139" height="336" key="GridCell.Tab.1.right" timestamp="1593692429609">
-      <screen x="0" y="23" width="1680" height="963" />
+    <state width="1479" height="700" key="GridCell.Tab.1.right" timestamp="1593703591253">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1139" height="336" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593692394510" />
+    <state width="1479" height="700" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593703591253" />
     <state width="1139" height="336" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
     <state width="1241" height="378" key="GridCell.Tab.2.bottom" timestamp="1593684759315">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -278,21 +313,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="360" y="181" key="Registry/0.0.1680.1050@0.0.1680.1050" timestamp="1593685754056" />
-    <state x="341" y="164" key="SettingsEditor" timestamp="1593667050077">
+    <state x="154" y="231" key="SettingsEditor" timestamp="1593702174983">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593667050077" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1593658921893">
+    <state x="154" y="231" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1593702174983" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1593702042386">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593658921893" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593702042386" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1593665411929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593665411929" />
-    <state x="217" y="222" key="new project wizard" timestamp="1593687561500">
+    <state x="217" y="222" key="new project wizard" timestamp="1593692773709">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="217" y="222" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593687561500" />
+    <state x="217" y="222" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593692773709" />
+  </component>
+  <component name="ZooKeeperConfig">
+    <option name="host" value="192.168.0.130" />
+    <option name="port" value="2181" />
+    <option name="charset" value="UTF-8" />
+    <option name="whitePaths" value="" />
+    <option name="enabled" value="true" />
+    <option name="tooltip" value="true" />
   </component>
 </project>

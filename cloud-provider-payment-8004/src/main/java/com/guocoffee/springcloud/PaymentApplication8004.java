@@ -3,7 +3,6 @@ package com.guocoffee.springcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @program: springcloud
@@ -12,10 +11,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @create: 2020-07-02
  */
 @SpringBootApplication
-@EnableEurekaClient // 标示为Eureka客户端
-@EnableDiscoveryClient
-public class PaymentApplication8002 {
+@EnableDiscoveryClient // 该注解用于向使用consul或者zookeeper作为注册中心时注册服务
+public class PaymentApplication8004 {
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication8002.class,args);
+        SpringApplication.run(PaymentApplication8004.class,args);
     }
 }
