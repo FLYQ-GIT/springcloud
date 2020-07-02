@@ -1,15 +1,15 @@
 server:
-  port: 7001
+  port: 7002
 
 eureka:
   instance:
-    hostname: eureka7001.com #eureka服务端的实例名称,由于是本机操作，若多台eureka，不允许hostname重复，此处通过修改hosts文件映射到localhost
+    hostname: eureka7002.com #eureka服务端的实例名称,由于是本机操作，若多台eureka，不允许hostname重复，此处通过修改hosts文件映射到localhost
   client:
     register-with-eureka: false     #false表示不向注册中心注册自己。
     fetch-registry: false     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url:
       # 设置与eureka service交互的地址，查询服务和注册服务都需要依赖这个地址
-      # 浏览器可以通过http://eureka7001.com:7001/访问eureka7001服务端
-      # 本机与7002相互注册，相互守望
-      defaultZone: http://eureka7002.com:7002/eureka/
+      # 浏览器可以通过http://eureka7002.com:7002/访问eureka7002服务端
+      # 本机与7001相互注册，相互守望
+      defaultZone: http://eureka7001.com:7001/eureka/
       
