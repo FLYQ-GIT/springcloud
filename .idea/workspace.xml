@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="" />
+    <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/PaymentApplication8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/entity/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/guocoffee/springcloud/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -22,16 +48,44 @@
     </option>
   </component>
   <component name="ProjectId" id="1e72zgo55VYYGdMjvKu6X1sMbd7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PaymentApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.PaymentApplication8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PaymentApplication8001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593658574111</updated>
       <workItem from="1593658575485" duration="320000" />
-      <workItem from="1593658920903" duration="1276000" />
+      <workItem from="1593658920903" duration="5371000" />
     </task>
     <servers />
   </component>
@@ -52,22 +106,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="231" key="GridCell.Tab.0.bottom" timestamp="1593659848662">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1593662669937">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="231" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593659848662" />
-    <state width="1638" height="231" key="GridCell.Tab.0.center" timestamp="1593659848660">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593662669937" />
+    <state width="1638" height="156" key="GridCell.Tab.0.bottom" timestamp="1593665463805">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="231" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593659848660" />
-    <state width="1638" height="231" key="GridCell.Tab.0.left" timestamp="1593659848660">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="156" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423273" />
+    <state width="1638" height="156" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593665463805" />
+    <state width="1638" height="156" key="GridCell.Tab.0.center" timestamp="1593665463804">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="231" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593659848660" />
-    <state width="1638" height="231" key="GridCell.Tab.0.right" timestamp="1593659848661">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="156" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423272" />
+    <state width="1638" height="156" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593665463804" />
+    <state width="1638" height="156" key="GridCell.Tab.0.left" timestamp="1593665463804">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="231" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593659848661" />
+    <state width="1638" height="156" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423271" />
+    <state width="1638" height="156" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593665463804" />
+    <state width="1638" height="156" key="GridCell.Tab.0.right" timestamp="1593665463805">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="156" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423272" />
+    <state width="1638" height="156" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593665463805" />
+    <state width="1638" height="156" key="GridCell.Tab.1.bottom" timestamp="1593665463807">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="156" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423275" />
+    <state width="1638" height="156" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593665463807" />
+    <state width="1638" height="156" key="GridCell.Tab.1.center" timestamp="1593665463806">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="156" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423274" />
+    <state width="1638" height="156" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593665463806" />
+    <state width="1638" height="156" key="GridCell.Tab.1.left" timestamp="1593665463806">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="156" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423273" />
+    <state width="1638" height="156" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593665463806" />
+    <state width="1638" height="156" key="GridCell.Tab.1.right" timestamp="1593665463807">
+      <screen x="0" y="23" width="1680" height="963" />
+    </state>
+    <state width="1638" height="156" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593665423274" />
+    <state width="1638" height="156" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593665463807" />
     <state x="341" y="164" key="SettingsEditor" timestamp="1593660020693">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -76,9 +158,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593658921893" />
-    <state x="217" y="222" key="new project wizard" timestamp="1593660009462">
+    <state width="600" height="424" key="javadoc.popup" timestamp="1593665411929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="217" y="222" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593660009462" />
+    <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593665411929" />
+    <state x="217" y="222" key="new project wizard" timestamp="1593661129854">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="217" y="222" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593661129854" />
   </component>
 </project>
