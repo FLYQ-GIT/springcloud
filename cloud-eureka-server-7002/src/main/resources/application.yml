@@ -12,4 +12,6 @@ eureka:
       # 浏览器可以通过http://eureka7002.com:7002/访问eureka7002服务端
       # 本机与7001相互注册，相互守望
       defaultZone: http://eureka7001.com:7001/eureka/
-      
+  server:
+    enable-self-preservation: false # 可以禁用自我保护模式，默认开启  开启自我保护模式指若发生网络故障，未收到服务端心跳，不会马上从服务注册中心删除
+    eviction-interval-timer-in-ms: 2000 # 默认检测心跳间隔时间60000毫秒
