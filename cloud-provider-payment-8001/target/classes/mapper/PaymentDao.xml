@@ -10,7 +10,7 @@
     </resultMap>
     <!-- 保存方法 -->
     <insert id="save" useGeneratedKeys="true" keyProperty="id">
-        insert into payment(name) values(#{name})
+        insert into payment (name) values (#{name})
     </insert>
 
     <!-- 查询方法 -->

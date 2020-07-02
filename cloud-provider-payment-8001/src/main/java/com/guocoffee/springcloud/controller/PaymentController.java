@@ -23,9 +23,10 @@ public class PaymentController {
     PaymentService paymentService;
 
     @PostMapping("/save")
-    public CommonResult save(Payment payment){
+    public CommonResult save(@RequestBody Payment payment){
+        log.info("执行保存操作--》输入～～～～" + payment);
         int i = paymentService.save(payment);
-        log.info("执行保存操作～～～" + i);
+        log.info("执行保存操作～～～～" + i);
         log.info("执行保存操作～～～" + payment);
         if (i>0){
             return new CommonResult(200,"成功",i);
@@ -39,9 +40,9 @@ public class PaymentController {
         Payment payment = paymentService.getById(id);
         log.info("执行查询操作～～～" + payment);
         if (payment != null){
-            return new CommonResult(200,"成功",payment);
+            return new CommonResult(200,"成功～～～",payment);
         }else {
-            return new CommonResult(400,"失败");
+            return new CommonResult(400,"失败～～～");
         }
     }
 }

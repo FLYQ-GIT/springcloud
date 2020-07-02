@@ -11,6 +11,7 @@
   <!-- 子模块 -->
   <modules>
     <module>cloud-provider-payment-8001</module>
+    <module>cloud-consumer-order-80</module>
   </modules>
   <!-- 指定打包方式 pom指的是父工程 -->
   <packaging>pom</packaging>
@@ -97,6 +98,8 @@
   </dependencyManagement>
 
   <build>
+    <finalName>springcloud</finalName>
+    <!-- maven自动构建 -->
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
