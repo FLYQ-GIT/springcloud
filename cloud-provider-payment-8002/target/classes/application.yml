@@ -21,6 +21,9 @@ eureka:
       #defaultZone: http://localhost:7001/eureka 单机
       # 集群配置
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance-id: payment8002 # 主机名称的修改
+    prefer-ip-address: true # 是否显示主机IP
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml
