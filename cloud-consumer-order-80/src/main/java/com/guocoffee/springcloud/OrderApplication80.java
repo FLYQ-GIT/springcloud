@@ -2,6 +2,7 @@ package com.guocoffee.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @program: springcloud
@@ -10,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @create: 2020-07-02
  */
 @SpringBootApplication
+@EnableEurekaClient
 public class OrderApplication80 {
 
     public static void main(String[] args) {
