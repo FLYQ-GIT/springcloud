@@ -23,3 +23,7 @@ cloud-provider-payment-8007
 - zookeeper 语言：go、cap:cp保证数据一致性、服务健康检查：支持、对外暴露接口：Linux客户端
 - consul 语言：go、cap:cp保证数据一致性、服务健康检查：支持、对外暴露接口：http（可以通过网页访问）
 
+使用openfeignfeign做远程调用
+cloud-consumer-order-80-feign
+配合7001、7002、8001、8002使用
+

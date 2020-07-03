@@ -21,6 +21,8 @@
       <module>cloud-provider-payment-8007</module>
       <module>cloud-consumer-order-80-consul</module>
       <module>cloud-consumer-order-80-feign</module>
+      <module>cloud-provider-hystrix-payment-8001</module>
+      <module>cloud-consumer-order-80-feign-hystrix</module>
   </modules>
   <!-- 指定打包方式 pom指的是父工程 -->
   <packaging>pom</packaging>

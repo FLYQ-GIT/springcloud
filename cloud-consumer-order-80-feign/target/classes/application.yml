@@ -26,6 +26,7 @@ ribbon:
 
 logging:
   level:
-    # feign日志以什么级别监控哪个接口 com.guocoffee.springcloud.dao
+    # feign日志以什么级别监控哪个接口(接口明细)
 #    com.guocoffee.springcloud.dao.PaymentDao: debug
+    # feign日志还可以调整为文件级别
     com.guocoffee.springcloud.dao: debug

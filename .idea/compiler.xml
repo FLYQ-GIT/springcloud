@@ -11,11 +11,13 @@
         <module name="cloud-provider-payment-8002" />
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-order-80-consul" />
+        <module name="cloud-consumer-order-80-feign-hystrix" />
         <module name="cloud-consumer-order-80-feign" />
         <module name="cloud-provider-payment-8001" />
         <module name="cloud-eureka-server-7002" />
         <module name="cloud-eureka-server-7001" />
         <module name="cloud-provider-payment-8007" />
+        <module name="cloud-provider-hystrix-payment-8001" />
         <module name="cloud-provider-payment-8004" />
       </profile>
     </annotationProcessing>
