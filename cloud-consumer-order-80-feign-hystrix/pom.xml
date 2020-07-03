@@ -12,6 +12,14 @@
     <artifactId>cloud-consumer-order-80-feign-hystrix</artifactId>
 
     <dependencies>
+        <!--
+            openfeign
+            内部已经集成spring-cloud-starter-netflix-ribbon
+        -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
         <!--hystrix-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

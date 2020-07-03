@@ -1,6 +1,8 @@
 package com.guocoffee.springcloud.controller;
 
 import com.guocoffee.springcloud.service.PaymentService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -41,8 +43,16 @@ public class PaymentController {
      * @return
      */
     @GetMapping("/timeout/{id}")
+    @HystrixCommand(fallbackMethod = "timeoutHandler",
+            commandProperties = {@HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="2000")})
     public String timeout(@PathVariable("id")long id){
+        int a = 1/0;
         String s = paymentService.paymentInfoTimeOut(id);
         return s;
     }
+
+    public String timeoutHandler(long id){
+        return "feignHystrixPayment客户端自己兜底，超时2秒返回";
+    }
+
 }

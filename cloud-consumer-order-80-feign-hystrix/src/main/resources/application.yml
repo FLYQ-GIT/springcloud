@@ -14,3 +14,9 @@ ribbon:
   ReadTimeout: 5000
   #指的是建立连接后从服务器读取到可用资源所用的时间
   ConnectTimeout: 5000
+
+# 注服务端没有开启此注解
+# If true, an OpenFeign client will be wrapped with a Hystrix circuit breaker.
+#feign:
+#  hystrix:
+#    enabled: true
