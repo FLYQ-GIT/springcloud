@@ -4,6 +4,7 @@ import com.guocoffee.springcloud.entity.CommonResult;
 import com.guocoffee.springcloud.entity.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
@@ -39,5 +40,16 @@ public class OrderController {
         CommonResult commonResult = restTemplate.getForObject(URL + "/payment/get/"+id, CommonResult.class);
         log.info("OrderController-->get==>"+commonResult);
         return commonResult;
+    }
+
+    @GetMapping("/getForEntity/{id}")
+    public CommonResult getForEntity(@PathVariable("id")long id){
+        ResponseEntity<CommonResult> entity = restTemplate.getForEntity(URL + "/payment/get/" + id, CommonResult.class);
+        log.info("OrderController-->get==>"+entity);
+        if (entity.getStatusCode().is2xxSuccessful()){
+            return entity.getBody();
+        }else {
+            return new CommonResult(400,"失败～～～");
+        }
     }
 }

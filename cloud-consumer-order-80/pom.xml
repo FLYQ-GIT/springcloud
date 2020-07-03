@@ -47,7 +47,10 @@
             <version>${project.version}</version>
         </dependency>
 
-        <!-- eureka-client客户端 -->
+        <!--
+            eureka-client客户端
+            内部已经集成spring-cloud-starter-netflix-ribbon
+        -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
