@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: springcloud
@@ -30,7 +31,7 @@ public class PaymentController {
      * 获取配置文件中的端口号
      */
     @Value("${server.port}")
-    private String servicePort;
+    private String serverPort;
 
     /**
      * 通过服务发现获取信息
@@ -45,9 +46,9 @@ public class PaymentController {
         log.info("执行保存操作～～～～" + i);
         log.info("执行保存操作～～～" + payment);
         if (i>0){
-            return new CommonResult(200,"成功-->servicePort："+servicePort,i);
+            return new CommonResult(200,"成功-->servicePort："+ serverPort,i);
         }else {
-            return new CommonResult(400,"失败-->servicePort："+servicePort);
+            return new CommonResult(400,"失败-->servicePort："+ serverPort);
         }
     }
 
@@ -56,9 +57,9 @@ public class PaymentController {
         Payment payment = paymentService.getById(id);
         log.info("执行查询操作～～～" + payment);
         if (payment != null){
-            return new CommonResult(200,"成功-->servicePort："+servicePort,payment);
+            return new CommonResult(200,"成功-->servicePort："+ serverPort,payment);
         }else {
-            return new CommonResult(400,"失败-->servicePort："+servicePort);
+            return new CommonResult(400,"失败-->servicePort："+ serverPort);
         }
     }
 
@@ -79,5 +80,19 @@ public class PaymentController {
         }
 
         return discoveryClient;
+    }
+
+    /**
+     * 测试超时服务
+     * @return
+     */
+    @GetMapping("/timeout")
+    public String timeout(){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 }

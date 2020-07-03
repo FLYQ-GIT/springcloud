@@ -26,6 +26,8 @@ public class PaymentController {
 
     @Resource
     PaymentService paymentService;
+    @Resource
+    PaymentDao paymentDao;
 
     /**
      * 获取配置文件中的端口号
@@ -38,5 +40,16 @@ public class PaymentController {
         CommonResult<Payment> payment = paymentService.getById(id);
         log.info("执行查询操作～～～" + payment);
         return payment;
+    }
+
+    /**
+     * 测试超时
+     * @return
+     */
+    @GetMapping("/timeout")
+    public String timeout(){
+        String timeout = paymentDao.timeout();
+        log.info("执行查询操作～～～" + timeout);
+        return timeout;
     }
 }

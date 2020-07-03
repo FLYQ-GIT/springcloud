@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @program: springcloud
@@ -79,5 +80,19 @@ public class PaymentController {
         }
 
         return discoveryClient;
+    }
+
+    /**
+     * 测试超时服务
+     * @return
+     */
+    @GetMapping("/timeout")
+    public String timeout(){
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 }
