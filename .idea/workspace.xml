@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/loadblancer/LoadBlancer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/loadblancer/MyLoadBlancer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/OrderApplication80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/OrderApplication80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/src/main/java/com/guocoffee/springcloud/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/guocoffee/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80/target/classes/com/guocoffee/springcloud/controller/OrderController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -253,49 +253,49 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1593662669937">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1593753495905">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593662669937" />
-    <state width="1151" height="358" key="GridCell.Tab.0.bottom" timestamp="1593751771132">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593753495905" />
+    <state width="1151" height="214" key="GridCell.Tab.0.bottom" timestamp="1593754478988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771132" />
+    <state width="1151" height="214" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478988" />
     <state width="1139" height="336" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1151" height="358" key="GridCell.Tab.0.center" timestamp="1593751771127">
+    <state width="1151" height="214" key="GridCell.Tab.0.center" timestamp="1593754478986">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771127" />
+    <state width="1151" height="214" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478986" />
     <state width="1139" height="336" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429606" />
-    <state width="1151" height="358" key="GridCell.Tab.0.left" timestamp="1593751771122">
+    <state width="1151" height="214" key="GridCell.Tab.0.left" timestamp="1593754478985">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771122" />
+    <state width="1151" height="214" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478985" />
     <state width="1139" height="336" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429604" />
-    <state width="1151" height="358" key="GridCell.Tab.0.right" timestamp="1593751771129">
+    <state width="1151" height="214" key="GridCell.Tab.0.right" timestamp="1593754478987">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771129" />
+    <state width="1151" height="214" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478987" />
     <state width="1139" height="336" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1151" height="358" key="GridCell.Tab.1.bottom" timestamp="1593751771136">
+    <state width="1151" height="214" key="GridCell.Tab.1.bottom" timestamp="1593754478992">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771136" />
+    <state width="1151" height="214" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478992" />
     <state width="1139" height="336" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429610" />
-    <state width="1151" height="358" key="GridCell.Tab.1.center" timestamp="1593751771134">
+    <state width="1151" height="214" key="GridCell.Tab.1.center" timestamp="1593754478989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771134" />
+    <state width="1151" height="214" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478989" />
     <state width="1139" height="336" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
-    <state width="1151" height="358" key="GridCell.Tab.1.left" timestamp="1593751771133">
+    <state width="1151" height="214" key="GridCell.Tab.1.left" timestamp="1593754478989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771133" />
+    <state width="1151" height="214" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478989" />
     <state width="1139" height="336" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429608" />
-    <state width="1151" height="358" key="GridCell.Tab.1.right" timestamp="1593751771135">
+    <state width="1151" height="214" key="GridCell.Tab.1.right" timestamp="1593754478990">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="358" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593751771135" />
+    <state width="1151" height="214" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593754478990" />
     <state width="1139" height="336" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
     <state width="1241" height="378" key="GridCell.Tab.2.bottom" timestamp="1593684759315">
       <screen x="0" y="0" width="1680" height="1050" />
