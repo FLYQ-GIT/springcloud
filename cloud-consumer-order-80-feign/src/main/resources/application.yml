@@ -23,3 +23,10 @@ ribbon:
   ReadTimeout: 5000
   #指的是建立连接后从服务器读取到可用资源所用的时间
   ConnectTimeout: 5000
+
+logging:
+  level:
+    # feign日志以什么级别监控哪个接口(接口明细)
+#    com.guocoffee.springcloud.dao.PaymentDao: debug
+    # feign日志还可以调整为文件级别
+    com.guocoffee.springcloud.dao: debug
