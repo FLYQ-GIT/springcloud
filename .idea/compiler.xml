@@ -17,6 +17,7 @@
         <module name="cloud-eureka-server-7002" />
         <module name="cloud-eureka-server-7001" />
         <module name="cloud-provider-payment-8007" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
         <module name="cloud-provider-hystrix-payment-8001" />
         <module name="cloud-provider-payment-8004" />
       </profile>
