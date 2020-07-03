@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/test/java/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" afterDir="false" />
@@ -108,7 +109,14 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaServiceApplication7002">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="cloud-gateway-gateway9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DashBoardApplication9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-hystrix-dashboard-9001" />
       <extension name="coverage">
@@ -168,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HystrixOrderFeignApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-consumer-order-80-feign-hystrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.HystrixOrderFeignApplication80" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderApplication80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order-80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.OrderApplication80" />
@@ -220,9 +215,9 @@
       <list>
         <item itemvalue="Spring Boot.GatewayApplication9527" />
         <item itemvalue="Spring Boot.EurekaServiceApplication7002" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.HystrisPaymentApplication8001" />
         <item itemvalue="Spring Boot.DashBoardApplication9001" />
-        <item itemvalue="Spring Boot.HystrixOrderFeignApplication80" />
       </list>
     </recent_temporary>
   </component>
@@ -301,45 +296,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593769167012" />
-    <state width="1151" height="435" key="GridCell.Tab.0.bottom" timestamp="1593787087880">
+    <state width="1151" height="630" key="GridCell.Tab.0.bottom" timestamp="1593788597447">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087880" />
+    <state width="1151" height="630" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597447" />
     <state width="1151" height="328" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593785047418" />
-    <state width="1151" height="435" key="GridCell.Tab.0.center" timestamp="1593787087877">
+    <state width="1151" height="630" key="GridCell.Tab.0.center" timestamp="1593788597446">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087877" />
+    <state width="1151" height="630" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597446" />
     <state width="1151" height="328" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
-    <state width="1151" height="435" key="GridCell.Tab.0.left" timestamp="1593787087876">
+    <state width="1151" height="630" key="GridCell.Tab.0.left" timestamp="1593788597445">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087876" />
+    <state width="1151" height="630" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597445" />
     <state width="1151" height="328" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
-    <state width="1151" height="435" key="GridCell.Tab.0.right" timestamp="1593787087879">
+    <state width="1151" height="630" key="GridCell.Tab.0.right" timestamp="1593788597446">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087879" />
+    <state width="1151" height="630" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597446" />
     <state width="1151" height="328" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
-    <state width="1151" height="435" key="GridCell.Tab.1.bottom" timestamp="1593787087883">
+    <state width="1151" height="630" key="GridCell.Tab.1.bottom" timestamp="1593788597448">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087883" />
+    <state width="1151" height="630" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597448" />
     <state width="1151" height="328" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593785047421" />
-    <state width="1151" height="435" key="GridCell.Tab.1.center" timestamp="1593787087881">
+    <state width="1151" height="630" key="GridCell.Tab.1.center" timestamp="1593788597447">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087881" />
+    <state width="1151" height="630" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597447" />
     <state width="1151" height="328" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593785047420" />
-    <state width="1151" height="435" key="GridCell.Tab.1.left" timestamp="1593787087880">
+    <state width="1151" height="630" key="GridCell.Tab.1.left" timestamp="1593788597447">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087880" />
+    <state width="1151" height="630" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597447" />
     <state width="1151" height="328" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593785047419" />
-    <state width="1151" height="435" key="GridCell.Tab.1.right" timestamp="1593787087882">
+    <state width="1151" height="630" key="GridCell.Tab.1.right" timestamp="1593788597448">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="435" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593787087882" />
+    <state width="1151" height="630" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593788597448" />
     <state width="1151" height="328" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593785047420" />
     <state width="1241" height="378" key="GridCell.Tab.2.bottom" timestamp="1593684759315">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -377,10 +372,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593784306200" />
-    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1593776125316">
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1593787935390">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593776125316" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593787935390" />
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.0.130" />
