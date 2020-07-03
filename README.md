@@ -4,7 +4,7 @@
 ### 包说明
 cloud-api-commons 工程优化，抽离相同的类
 
-使用eureka做服务注册发现、负载均衡
+使用eureka做服务注册发现、ribbon负载均衡
 cloud-consumer-order-80 消费者
 cloud-eureka-server-7001 eureka服务端
 cloud-eureka-server-7002 eureka服务端
