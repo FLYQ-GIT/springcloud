@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/java/com/guocoffee/springcloud/DashBoardApplication9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/cloud-gateway-gateway9527.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/guocoffee/springcloud/GatewayApplication9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/guocoffee/springcloud/config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/guocoffee/springcloud/GatewayApplication9527.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/com/guocoffee/springcloud/config/GateWayConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/guocoffee/springcloud/HystrisPaymentApplication8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/java/com/guocoffee/springcloud/HystrisPaymentApplication8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/HystrisPaymentApplication8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/HystrisPaymentApplication8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/service/PaymentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/service/PaymentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -101,11 +104,11 @@
       <recent name="com.guocoffee.springcloud.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumer-order-80-feign/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumer-order-80-consul/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-provider-payment-8007/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -115,7 +118,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrisPaymentApplication8001">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication9527">
     <configuration name="DashBoardApplication9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-consumer-hystrix-dashboard-9001" />
       <extension name="coverage">
@@ -136,15 +139,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServiceApplication7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-eureka-server-7002" />
+    <configuration name="GatewayApplication9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-gateway9527" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.guocoffee.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.EurekaServiceApplication7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.GatewayApplication9527" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +205,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentApplication8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.PaymentApplication8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentApplication8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-8004" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.PaymentApplication8004" />
@@ -218,11 +228,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication9527" />
         <item itemvalue="Spring Boot.HystrisPaymentApplication8001" />
         <item itemvalue="Spring Boot.DashBoardApplication9001" />
         <item itemvalue="Spring Boot.HystrixOrderFeignApplication80" />
         <item itemvalue="Spring Boot.OrderFeignApplication80" />
-        <item itemvalue="Spring Boot.EurekaServiceApplication7002" />
       </list>
     </recent_temporary>
   </component>
@@ -295,46 +305,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593769167012" />
-    <state width="1151" height="503" key="GridCell.Tab.0.bottom" timestamp="1593782916415">
+    <state width="1151" height="506" key="GridCell.Tab.0.bottom" timestamp="1593786596089">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916415" />
-    <state width="1139" height="336" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1151" height="503" key="GridCell.Tab.0.center" timestamp="1593782916414">
+    <state width="1151" height="506" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596089" />
+    <state width="1151" height="328" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593785047418" />
+    <state width="1151" height="506" key="GridCell.Tab.0.center" timestamp="1593786596088">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916414" />
-    <state width="1139" height="336" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429606" />
-    <state width="1151" height="503" key="GridCell.Tab.0.left" timestamp="1593782916413">
+    <state width="1151" height="506" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596088" />
+    <state width="1151" height="328" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
+    <state width="1151" height="506" key="GridCell.Tab.0.left" timestamp="1593786596088">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916413" />
-    <state width="1139" height="336" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429604" />
-    <state width="1151" height="503" key="GridCell.Tab.0.right" timestamp="1593782916415">
+    <state width="1151" height="506" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596088" />
+    <state width="1151" height="328" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
+    <state width="1151" height="506" key="GridCell.Tab.0.right" timestamp="1593786596089">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916415" />
-    <state width="1139" height="336" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429607" />
-    <state width="1151" height="503" key="GridCell.Tab.1.bottom" timestamp="1593782916417">
+    <state width="1151" height="506" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596089" />
+    <state width="1151" height="328" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593785047417" />
+    <state width="1151" height="506" key="GridCell.Tab.1.bottom" timestamp="1593786596091">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916417" />
-    <state width="1139" height="336" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593692429610" />
-    <state width="1151" height="503" key="GridCell.Tab.1.center" timestamp="1593782916416">
+    <state width="1151" height="506" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596091" />
+    <state width="1151" height="328" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593785047421" />
+    <state width="1151" height="506" key="GridCell.Tab.1.center" timestamp="1593786596090">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916416" />
-    <state width="1139" height="336" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
-    <state width="1151" height="503" key="GridCell.Tab.1.left" timestamp="1593782916415">
+    <state width="1151" height="506" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596090" />
+    <state width="1151" height="328" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593785047420" />
+    <state width="1151" height="506" key="GridCell.Tab.1.left" timestamp="1593786596090">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916415" />
-    <state width="1139" height="336" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593692429608" />
-    <state width="1151" height="503" key="GridCell.Tab.1.right" timestamp="1593782916416">
+    <state width="1151" height="506" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596090" />
+    <state width="1151" height="328" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593785047419" />
+    <state width="1151" height="506" key="GridCell.Tab.1.right" timestamp="1593786596090">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1151" height="503" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593782916416" />
-    <state width="1139" height="336" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593692429609" />
+    <state width="1151" height="506" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593786596090" />
+    <state width="1151" height="328" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593785047420" />
     <state width="1241" height="378" key="GridCell.Tab.2.bottom" timestamp="1593684759315">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -367,10 +377,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593665411929" />
-    <state x="186" y="321" key="new project wizard" timestamp="1593777885977">
+    <state x="186" y="321" key="new project wizard" timestamp="1593784306200">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593777885977" />
+    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593784306200" />
     <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1593776125316">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

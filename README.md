@@ -27,3 +27,11 @@ cloud-provider-payment-8007
 cloud-consumer-order-80-feign
 配合7001、7002、8001、8002使用
 
+hystrix降级熔断
+cloud-provider-hystrix-payment-8001
+cloud-consumer-order-80-feign-hystrix
+配合7001、7002
+
+hystrix图形化监控
+cloud-consumer-hystrix-dashboard-9001
+
