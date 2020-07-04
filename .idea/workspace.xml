@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/guocoffee/springcloud/ConfigCenterApplication3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/guocoffee/springcloud/CloudClientApplication3355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/guocoffee/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/target/classes/com/guocoffee/springcloud/DashBoardApplication9001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/target/classes/com/guocoffee/springcloud/DashBoardApplication9001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-80-feign-hystrix/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-80-feign-hystrix/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/HystrisPaymentApplication8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/target/classes/com/guocoffee/springcloud/HystrisPaymentApplication8001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/guocoffee/springcloud/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/guocoffee/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/guocoffee/springcloud/controller/ConfigClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/com/guocoffee/springcloud/controller/ConfigClientController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,7 +300,7 @@
       <workItem from="1593702042058" duration="1201000" />
       <workItem from="1593840163825" duration="2246000" />
       <workItem from="1593843109589" duration="1465000" />
-      <workItem from="1593844856916" duration="932000" />
+      <workItem from="1593844856916" duration="1381000" />
     </task>
     <servers />
   </component>
@@ -373,46 +363,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="643" y="431" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593840244548" />
-    <state width="1169" height="486" key="GridCell.Tab.0.bottom" timestamp="1593845792430">
+    <state width="1169" height="471" key="GridCell.Tab.0.bottom" timestamp="1593846254253">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789022" />
-    <state width="1169" height="486" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593845792430" />
-    <state width="1169" height="486" key="GridCell.Tab.0.center" timestamp="1593845792429">
+    <state width="1169" height="471" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251786" />
+    <state width="1169" height="471" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593846254253" />
+    <state width="1169" height="471" key="GridCell.Tab.0.center" timestamp="1593846254252">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789018" />
-    <state width="1169" height="486" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593845792429" />
-    <state width="1169" height="486" key="GridCell.Tab.0.left" timestamp="1593845792428">
+    <state width="1169" height="471" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251786" />
+    <state width="1169" height="471" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593846254252" />
+    <state width="1169" height="471" key="GridCell.Tab.0.left" timestamp="1593846254251">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789017" />
-    <state width="1169" height="486" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593845792428" />
-    <state width="1169" height="486" key="GridCell.Tab.0.right" timestamp="1593845792430">
+    <state width="1169" height="471" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251785" />
+    <state width="1169" height="471" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593846254251" />
+    <state width="1169" height="471" key="GridCell.Tab.0.right" timestamp="1593846254252">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789019" />
-    <state width="1169" height="486" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593845792430" />
-    <state width="1169" height="486" key="GridCell.Tab.1.bottom" timestamp="1593845792432">
+    <state width="1169" height="471" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251786" />
+    <state width="1169" height="471" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593846254252" />
+    <state width="1169" height="471" key="GridCell.Tab.1.bottom" timestamp="1593846254255">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789025" />
-    <state width="1169" height="486" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593845792432" />
-    <state width="1169" height="486" key="GridCell.Tab.1.center" timestamp="1593845792431">
+    <state width="1169" height="471" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251788" />
+    <state width="1169" height="471" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593846254255" />
+    <state width="1169" height="471" key="GridCell.Tab.1.center" timestamp="1593846254254">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789024" />
-    <state width="1169" height="486" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593845792431" />
-    <state width="1169" height="486" key="GridCell.Tab.1.left" timestamp="1593845792431">
+    <state width="1169" height="471" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251787" />
+    <state width="1169" height="471" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593846254254" />
+    <state width="1169" height="471" key="GridCell.Tab.1.left" timestamp="1593846254253">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789024" />
-    <state width="1169" height="486" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593845792431" />
-    <state width="1169" height="486" key="GridCell.Tab.1.right" timestamp="1593845792432">
+    <state width="1169" height="471" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251787" />
+    <state width="1169" height="471" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593846254253" />
+    <state width="1169" height="471" key="GridCell.Tab.1.right" timestamp="1593846254254">
       <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="486" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593845789025" />
-    <state width="1169" height="486" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593845792432" />
+    <state width="1169" height="471" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593846251787" />
+    <state width="1169" height="471" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593846254254" />
     <state width="1151" height="394" key="GridCell.Tab.2.bottom" timestamp="1593837448015">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
