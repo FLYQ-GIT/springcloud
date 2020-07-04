@@ -26,6 +26,7 @@
         <module name="cloud-config-client-3355" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-provider-payment-8004" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

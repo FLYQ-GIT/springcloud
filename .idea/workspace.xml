@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/cloud-stream-rabbitmq-provider-8801.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/guocoffee/springcloud/StreamMQApplication8801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/guocoffee/springcloud/service/IMessageProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/guocoffee/springcloud/service/controller/MessageProviderCtr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/java/com/guocoffee/springcloud/service/impl/MessageProviderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/cloud-stream-rabbitmq-consumer-8802.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/guocoffee/springcloud/StreamMQApplication8802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/guocoffee/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -84,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39585733" />
@@ -95,18 +93,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guocoffee.springcloud" />
       <recent name="com.guocoffee.springcloud.controller" />
       <recent name="com.guocoffee.springcloud.service" />
-      <recent name="com.guocoffee.springcloud" />
       <recent name="com.guocoffee.springcloud.dao" />
       <recent name="com.guocoffee.springcloud.service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-provider-8801/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-provider-hystrix-payment-8001/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamMQApplication8801">
+  <component name="RunManager" selected="Spring Boot.StreamMQApplication8802">
     <configuration name="CloudClientApplication3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-client-3355" />
       <extension name="coverage">
@@ -253,8 +251,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamMQApplication8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.StreamMQApplication8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StreamMQApplication8802" />
         <item itemvalue="Spring Boot.ConfigCenterApplication3344" />
         <item itemvalue="Spring Boot.CloudClientApplication3355" />
         <item itemvalue="Spring Boot.EurekaServiceApplication7002" />
@@ -266,7 +278,7 @@
     <option name="viewStates">
       <list>
         <serviceView>
-          <option name="contentProportion" value="0.27284026" />
+          <option name="contentProportion" value="0.32566813" />
           <treeState>
             <expand>
               <path>
@@ -283,6 +295,12 @@
                 <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@33de5032" type="d2cb1801:ServiceModel$ContributorNode" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="com.intellij.execution.dashboard.RunDashboardServiceViewContributor@33de5032" type="d2cb1801:ServiceModel$ContributorNode" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -308,7 +326,7 @@
       <workItem from="1593702042058" duration="1201000" />
       <workItem from="1593840163825" duration="2246000" />
       <workItem from="1593843109589" duration="1465000" />
-      <workItem from="1593844856916" duration="5709000" />
+      <workItem from="1593844856916" duration="6764000" />
     </task>
     <servers />
   </component>
@@ -371,46 +389,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="643" y="431" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593840244548" />
-    <state width="1169" height="544" key="GridCell.Tab.0.bottom" timestamp="1593853127943">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="360" key="GridCell.Tab.0.bottom" timestamp="1593854369191">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127943" />
-    <state width="1169" height="471" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593846254253" />
-    <state width="1169" height="544" key="GridCell.Tab.0.center" timestamp="1593853127940">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300212" />
+    <state width="1084" height="360" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593854369191" />
+    <state width="1084" height="360" key="GridCell.Tab.0.center" timestamp="1593854369190">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127940" />
-    <state width="1169" height="471" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593846254252" />
-    <state width="1169" height="544" key="GridCell.Tab.0.left" timestamp="1593853127938">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300210" />
+    <state width="1084" height="360" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593854369190" />
+    <state width="1084" height="360" key="GridCell.Tab.0.left" timestamp="1593854369189">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127938" />
-    <state width="1169" height="471" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593846254251" />
-    <state width="1169" height="544" key="GridCell.Tab.0.right" timestamp="1593853127941">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300209" />
+    <state width="1084" height="360" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593854369189" />
+    <state width="1084" height="360" key="GridCell.Tab.0.right" timestamp="1593854369190">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127941" />
-    <state width="1169" height="471" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593846254252" />
-    <state width="1169" height="544" key="GridCell.Tab.1.bottom" timestamp="1593853127946">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300212" />
+    <state width="1084" height="360" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593854369190" />
+    <state width="1084" height="360" key="GridCell.Tab.1.bottom" timestamp="1593854369193">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127946" />
-    <state width="1169" height="471" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593846254255" />
-    <state width="1169" height="544" key="GridCell.Tab.1.center" timestamp="1593853127945">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300214" />
+    <state width="1084" height="360" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593854369193" />
+    <state width="1084" height="360" key="GridCell.Tab.1.center" timestamp="1593854369192">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127945" />
-    <state width="1169" height="471" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593846254254" />
-    <state width="1169" height="544" key="GridCell.Tab.1.left" timestamp="1593853127944">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300213" />
+    <state width="1084" height="360" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593854369192" />
+    <state width="1084" height="360" key="GridCell.Tab.1.left" timestamp="1593854369191">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127944" />
-    <state width="1169" height="471" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593846254253" />
-    <state width="1169" height="544" key="GridCell.Tab.1.right" timestamp="1593853127945">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1084" height="326" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300213" />
+    <state width="1084" height="360" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593854369191" />
+    <state width="1084" height="360" key="GridCell.Tab.1.right" timestamp="1593854369192">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1169" height="544" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593853127945" />
-    <state width="1169" height="471" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593846254254" />
+    <state width="1084" height="326" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593854300214" />
+    <state width="1084" height="360" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593854369192" />
     <state width="1151" height="394" key="GridCell.Tab.2.bottom" timestamp="1593837448015">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -451,10 +469,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593665411929" />
-    <state x="186" y="321" key="new project wizard" timestamp="1593851449249">
+    <state x="186" y="321" key="new project wizard" timestamp="1593853548450">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593851449249" />
+    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593853548450" />
     <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1593850390957">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
