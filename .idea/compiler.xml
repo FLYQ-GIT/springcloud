@@ -10,18 +10,24 @@
         <module name="cloud-provider-payment-8002" />
         <module name="cloud-provider-payment-8001" />
         <module name="cloud-eureka-server-7002" />
-        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-config-center-3344" />
         <module name="cloud-consumer-order-80-consul" />
         <module name="cloud-provider-hystrix-payment-8001" />
         <module name="cloud-api-commons" />
+        <module name="cloud-provider-payment-8007" />
+        <module name="cloud-eureka-server-7001" />
         <module name="cloud-consumer-order-80-feign" />
         <module name="cloud-consumer-order-80-feign-hystrix" />
         <module name="cloud-consumer-order-80" />
         <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-config-client-33551" />
+        <module name="cloud-config-client-3355" />
         <module name="cloud-gateway-gateway9527" />
         <module name="cloud-provider-payment-8004" />
-        <module name="cloud-provider-payment-8007" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-client-33551" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
