@@ -41,3 +41,7 @@ cloud-gateway-gateway9527
 
 sleuth+zipkin链路测试
 http://192.168.0.130:9411/zipkin
+
+
+http://192.168.0.130:8848/nacos/
+-DServer.port=9011
