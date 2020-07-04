@@ -38,3 +38,6 @@ cloud-consumer-hystrix-dashboard-9001
 gateway路由
 cloud-gateway-gateway9527
 三大核心：路由/断言/过滤
+
+sleuth+zipkin链路测试
+http://192.168.0.130:9411/zipkin

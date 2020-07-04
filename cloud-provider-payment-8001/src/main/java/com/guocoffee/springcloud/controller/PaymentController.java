@@ -95,4 +95,14 @@ public class PaymentController {
         }
         return serverPort;
     }
+
+
+    /**
+     * 测试sleuth+zipkin链路监控
+     * @return
+     */
+    @GetMapping("/zipkin")
+    public String paymentZipkin(){
+        return "测试sleuth+zipkin链路监控O(∩_∩)O哈哈~";
+    }
 }
