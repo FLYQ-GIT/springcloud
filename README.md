@@ -35,3 +35,6 @@ cloud-consumer-order-80-feign-hystrix
 hystrix图形化监控
 cloud-consumer-hystrix-dashboard-9001
 
+gateway路由
+cloud-gateway-gateway9527
+三大核心：路由/断言/过滤
