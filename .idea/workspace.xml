@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/cloudalibaba-config-nacos-client-3377.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/java/com/guocoffee/springcloud/ConfigNacosApplication3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/java/com/guocoffee/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/cloudalibaba-sentinel-server8401.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/src/main/java/com/guocoffee/springcloud/SentinelApplication8041.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/src/main/java/com/guocoffee/springcloud/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-mysql.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/com/guocoffee/springcloud/ConfigCenterApplication3344.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/com/guocoffee/springcloud/ConfigCenterApplication3344.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment-9001/target/classes/com/guocoffee/springcloud/PaymentApplication9001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9001/target/classes/com/guocoffee/springcloud/PaymentApplication9001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39585733" />
@@ -102,11 +105,11 @@
       <recent name="com.guocoffee.springcloud.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cloudalibaba-sentinel-server8401/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloudalibaba-config-nacos-client-3377/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-83/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloudalibaba-provider-payment-9002/src/main/resources" />
       <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -116,7 +119,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigNacosApplication3377">
+  <component name="RunManager" selected="Spring Boot.SentinelApplication8041">
     <configuration name="CloudClientApplication3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-client-3355" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.CloudClientApplication3355" />
@@ -248,19 +251,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentApplication9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloudalibaba-provider-payment-9001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.PaymentApplication9001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentApplication9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-provider-payment-9002" />
       <extension name="coverage">
@@ -289,9 +279,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelApplication8041" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-server8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guocoffee.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.SentinelApplication8041" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMQApplication8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider-8801" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.StreamMQApplication8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQApplication8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guocoffee.springcloud.StreamMQApplication8802" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -305,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelApplication8041" />
         <item itemvalue="Spring Boot.ConfigNacosApplication3377" />
         <item itemvalue="Spring Boot.OrderNacosApplication83" />
         <item itemvalue="Spring Boot.PaymentApplication9002" />
         <item itemvalue="Spring Boot.PaymentApplication9011 (copy 9001)" />
-        <item itemvalue="Spring Boot.PaymentApplication9001" />
       </list>
     </recent_temporary>
   </component>
@@ -371,7 +381,7 @@
       <workItem from="1593702042058" duration="1201000" />
       <workItem from="1593840163825" duration="2246000" />
       <workItem from="1593843109589" duration="1465000" />
-      <workItem from="1593844856916" duration="13377000" />
+      <workItem from="1593844856916" duration="28478000" />
     </task>
     <servers />
   </component>
@@ -442,45 +452,45 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="643" y="431" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593840244548" />
-    <state width="1134" height="391" key="GridCell.Tab.0.bottom" timestamp="1593872771188">
+    <state width="1134" height="390" key="GridCell.Tab.0.bottom" timestamp="1594009034427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771188" />
+    <state width="1134" height="390" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034427" />
     <state width="1134" height="391" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593872688149" />
-    <state width="1134" height="391" key="GridCell.Tab.0.center" timestamp="1593872771185">
+    <state width="1134" height="390" key="GridCell.Tab.0.center" timestamp="1594009034427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771185" />
+    <state width="1134" height="390" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034427" />
     <state width="1134" height="391" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1593872688148" />
-    <state width="1134" height="391" key="GridCell.Tab.0.left" timestamp="1593872771183">
+    <state width="1134" height="390" key="GridCell.Tab.0.left" timestamp="1594009034426">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771183" />
+    <state width="1134" height="390" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034426" />
     <state width="1134" height="391" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1593872688148" />
-    <state width="1134" height="391" key="GridCell.Tab.0.right" timestamp="1593872771186">
+    <state width="1134" height="390" key="GridCell.Tab.0.right" timestamp="1594009034427">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771186" />
+    <state width="1134" height="390" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034427" />
     <state width="1134" height="391" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1593872688149" />
-    <state width="1134" height="391" key="GridCell.Tab.1.bottom" timestamp="1593872771191">
+    <state width="1134" height="390" key="GridCell.Tab.1.bottom" timestamp="1594009034429">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771191" />
+    <state width="1134" height="390" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034429" />
     <state width="1134" height="391" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1593872688151" />
-    <state width="1134" height="391" key="GridCell.Tab.1.center" timestamp="1593872771190">
+    <state width="1134" height="390" key="GridCell.Tab.1.center" timestamp="1594009034428">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771190" />
+    <state width="1134" height="390" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034428" />
     <state width="1134" height="391" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1593872688150" />
-    <state width="1134" height="391" key="GridCell.Tab.1.left" timestamp="1593872771189">
+    <state width="1134" height="390" key="GridCell.Tab.1.left" timestamp="1594009034428">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771189" />
+    <state width="1134" height="390" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034428" />
     <state width="1134" height="391" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1593872688149" />
-    <state width="1134" height="391" key="GridCell.Tab.1.right" timestamp="1593872771190">
+    <state width="1134" height="390" key="GridCell.Tab.1.right" timestamp="1594009034429">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="391" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593872771190" />
+    <state width="1134" height="390" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594009034429" />
     <state width="1134" height="391" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1593872688150" />
     <state width="1134" height="662" key="GridCell.Tab.2.bottom" timestamp="1593860700864">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -522,10 +532,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593665411929" />
-    <state x="186" y="321" key="new project wizard" timestamp="1593869867597">
+    <state x="186" y="321" key="new project wizard" timestamp="1594005855321">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1593869867597" />
+    <state x="186" y="321" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1594005855321" />
     <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1593850390957">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
