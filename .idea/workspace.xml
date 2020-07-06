@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76729b4d-1926-4053-b7a4-11ab34250135" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/cloudalibaba-consumer-nacos-order-84.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/OrderNacosApplication84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/controller/CircleBreakerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9003/cloudalibaba-provider-payment-9003.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9003/src/main/java/com/guocoffee/springcloud/PaymentApplication9003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9003/src/main/java/com/guocoffee/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9003/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9004/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9004/src/main/java/com/guocoffee/springcloud/PaymentApplication9004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9004/src/main/java/com/guocoffee/springcloud/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment-9004/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/service/IPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/service/impl/PaymentFallbackService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/OrderNacosApplication84.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/OrderNacosApplication84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/controller/CircleBreakerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/java/com/guocoffee/springcloud/controller/CircleBreakerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/com/guocoffee/springcloud/OrderNacosApplication84.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/com/guocoffee/springcloud/OrderNacosApplication84.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/com/guocoffee/springcloud/controller/CircleBreakerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order-84/target/classes/com/guocoffee/springcloud/controller/CircleBreakerController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -399,7 +389,7 @@
       <workItem from="1593702042058" duration="1201000" />
       <workItem from="1593840163825" duration="2246000" />
       <workItem from="1593843109589" duration="1465000" />
-      <workItem from="1593844856916" duration="36846000" />
+      <workItem from="1593844856916" duration="38758000" />
     </task>
     <servers />
   </component>
@@ -454,10 +444,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="628" y="237" key="#com.intellij.ide.macro.MacrosDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593863581907" />
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1593852149579">
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1594029201560">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1593852149579" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594029201560" />
     <state x="256" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593845740812">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -470,62 +460,62 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="643" y="431" key="Github.CreateGistDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593840244548" />
-    <state width="1187" height="338" key="GridCell.Tab.0.bottom" timestamp="1594028045303">
+    <state width="1187" height="443" key="GridCell.Tab.0.bottom" timestamp="1594030555989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045303" />
+    <state width="1187" height="443" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555989" />
     <state width="1229" height="332" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1594016868435" />
-    <state width="1187" height="338" key="GridCell.Tab.0.center" timestamp="1594028045302">
+    <state width="1187" height="443" key="GridCell.Tab.0.center" timestamp="1594030555988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045302" />
+    <state width="1187" height="443" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555988" />
     <state width="1229" height="332" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1594016868434" />
-    <state width="1187" height="338" key="GridCell.Tab.0.left" timestamp="1594028045301">
+    <state width="1187" height="443" key="GridCell.Tab.0.left" timestamp="1594030555987">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045301" />
+    <state width="1187" height="443" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555987" />
     <state width="1229" height="332" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1594016868434" />
-    <state width="1187" height="338" key="GridCell.Tab.0.right" timestamp="1594028045303">
+    <state width="1187" height="443" key="GridCell.Tab.0.right" timestamp="1594030555989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045303" />
+    <state width="1187" height="443" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555989" />
     <state width="1229" height="332" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1594016868435" />
-    <state width="1187" height="338" key="GridCell.Tab.1.bottom" timestamp="1594028045305">
+    <state width="1187" height="443" key="GridCell.Tab.1.bottom" timestamp="1594030555992">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045305" />
+    <state width="1187" height="443" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555992" />
     <state width="1229" height="332" key="GridCell.Tab.1.bottom/0.23.1680.963@0.23.1680.963" timestamp="1594016868437" />
-    <state width="1187" height="338" key="GridCell.Tab.1.center" timestamp="1594028045304">
+    <state width="1187" height="443" key="GridCell.Tab.1.center" timestamp="1594030555990">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045304" />
+    <state width="1187" height="443" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555990" />
     <state width="1229" height="332" key="GridCell.Tab.1.center/0.23.1680.963@0.23.1680.963" timestamp="1594016868436" />
-    <state width="1187" height="338" key="GridCell.Tab.1.left" timestamp="1594028045304">
+    <state width="1187" height="443" key="GridCell.Tab.1.left" timestamp="1594030555990">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045304" />
+    <state width="1187" height="443" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555990" />
     <state width="1229" height="332" key="GridCell.Tab.1.left/0.23.1680.963@0.23.1680.963" timestamp="1594016868436" />
-    <state width="1187" height="338" key="GridCell.Tab.1.right" timestamp="1594028045305">
+    <state width="1187" height="443" key="GridCell.Tab.1.right" timestamp="1594030555991">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1187" height="338" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594028045305" />
+    <state width="1187" height="443" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594030555991" />
     <state width="1229" height="332" key="GridCell.Tab.1.right/0.23.1680.963@0.23.1680.963" timestamp="1594016868437" />
-    <state width="1134" height="662" key="GridCell.Tab.2.bottom" timestamp="1593860700864">
+    <state width="1187" height="282" key="GridCell.Tab.2.bottom" timestamp="1594029758591">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="662" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1593860700864" />
-    <state width="1134" height="662" key="GridCell.Tab.2.center" timestamp="1593860700863">
+    <state width="1187" height="282" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594029758591" />
+    <state width="1187" height="282" key="GridCell.Tab.2.center" timestamp="1594029758590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="662" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1593860700863" />
-    <state width="1134" height="662" key="GridCell.Tab.2.left" timestamp="1593860700863">
+    <state width="1187" height="282" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594029758590" />
+    <state width="1187" height="282" key="GridCell.Tab.2.left" timestamp="1594029758590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="662" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1593860700863" />
-    <state width="1134" height="662" key="GridCell.Tab.2.right" timestamp="1593860700864">
+    <state width="1187" height="282" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594029758590" />
+    <state width="1187" height="282" key="GridCell.Tab.2.right" timestamp="1594029758590">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1134" height="662" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1593860700864" />
+    <state width="1187" height="282" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594029758590" />
     <state x="278" y="332" key="NewModule_or_Project.wizard" timestamp="1593845011983">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -542,10 +532,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1593840164712" />
-    <state x="498" y="282" width="719" height="486" key="find.popup" timestamp="1593850381821">
+    <state x="498" y="282" width="822" height="486" key="find.popup" timestamp="1594030359093">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="498" y="282" width="719" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1593850381821" />
+    <state x="498" y="282" width="822" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594030359093" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1593665411929">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
