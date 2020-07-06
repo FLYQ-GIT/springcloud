@@ -12,6 +12,11 @@
     <artifactId>cloudalibaba-sentinel-server8401</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>com.guocoffee.springcloud</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <!--SpringCloud ailibaba nacos -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
