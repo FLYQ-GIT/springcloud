@@ -12,9 +12,29 @@ spring:
       transport:
         dashboard: 192.168.0.130:8858 #配置Sentinel dashboard地址
         port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 192.168.0.130:8848
+            dataId: cloudalibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+
 
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+
+
+
+
+
+docker run --name seata-server -p 8091:8091
+  -e SEATA_CONFIG_NAME=file:/root/seata-config/registry -v /User/seata/config:/root/seata-config
+  -e SEATA_CONFIG_NAME=file:/root/seata-config/registry
+  seataio/seata-server
